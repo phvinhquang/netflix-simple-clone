@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  background-color: transparent;
+  color: red;
+  height: 50px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.nav-container {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  font-weight: 700;
+  margin: 0;
+  color: inherit;
+}
+
+.navbar a:link,
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-black {
+  background-color: black;
+  transition: 0.5s;
+}

@@ -1,0 +1,24 @@
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  grid-auto-flow: dense;
+  margin-left: 50px;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.detail-container {
+  position: relative;
+  /* height: 450px; */
+  grid-column: 1/-1;
+}
+
+/*Text khi không tìm thấy phim trùng khớp*/
+.not-found-text {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}

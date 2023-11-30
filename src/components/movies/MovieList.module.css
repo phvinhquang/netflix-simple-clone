@@ -1,0 +1,43 @@
+.movie-list {
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+
+.movie-list:last-child {
+  margin-bottom: 100px;
+}
+
+h1 {
+  color: white;
+}
+
+.movie-flexbox {
+  height: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

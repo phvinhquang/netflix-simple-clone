@@ -1,0 +1,79 @@
+.container {
+  /* background-color: yellow; */
+  height: 15rem;
+  position: relative;
+}
+
+.search-bar {
+  width: 600px;
+  height: 160px;
+  background-color: #fefcff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/*Style input và icon*/
+.input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #339af0;
+  border-radius: 5px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+/*style button*/
+.actions {
+  margin-top: 35px;
+
+  text-align: right;
+}
+
+.btn {
+  padding: 8px 10px;
+  width: 80px;
+  letter-spacing: 0.5px;
+}
+
+.btn-reset {
+  background-color: #fefcff;
+  border: none;
+  color: #495057;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.btn-search {
+  background-color: #4dabf7;
+  border: none;
+  color: white;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.btn-search:hover {
+  background-color: #1c7ed6;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 0;
+}
